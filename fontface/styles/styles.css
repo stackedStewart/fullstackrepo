@@ -23,7 +23,7 @@
   }
   
   @font-face {
-    src: url("fonts/CroissantOne-Regular.ttf");
+    src: url('fonts/CroissantOne-Regular.ttf');
   }
   
   html {
