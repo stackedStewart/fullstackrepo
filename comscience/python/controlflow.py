@@ -1,4 +1,4 @@
-grade = 67
+grade = 64
 
 if grade >= 90:
   print("A")
