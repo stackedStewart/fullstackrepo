@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+    background-color: aqua;
+    color: black;
+}
+
+header.container {
+    border: black;
+    border-style: double;
+    border-width: 20px;
+}
+
+#tabletags {
+    color: black;
+}
