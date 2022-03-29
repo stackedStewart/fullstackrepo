@@ -8,6 +8,8 @@ header.container {
     border: black;
     border-style: double;
     border-width: 20px;
+    padding: 10px 5px;
+    text-transform: uppercase;
 }
 
 #tabletags {
