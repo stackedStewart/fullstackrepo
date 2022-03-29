@@ -1,17 +1,26 @@
 body {
+    background-color: rgb(220, 220, 220);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
     text-align: center;
-    background-color: aqua;
-    color: black;
+}
+h2 {
+    color: rgb(102, 51, 153);
+    text-align: center;
 }
 
-header.container {
-    border: black;
-    border-style: double;
-    border-width: 20px;
-    padding: 10px 5px;
-    text-transform: uppercase;
+table {
+    border: 2px solid darkorchid;
+    width: 650px;
+    margin: 0 auto;
 }
 
-#tabletags {
-    color: black;
+thead {
+    background-color: rgb(221, 160, 221);
+}
+
+.code {
+    background-color: rgb(245, 245, 220);
 }
