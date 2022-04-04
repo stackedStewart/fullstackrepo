@@ -11,6 +11,10 @@ header {
     position: absolute;
 }
 
+h4 {
+    color: seashell;
+}
+
 /*mission area*/
 
 .mission {
@@ -21,9 +25,16 @@ header {
 }
 
 .ourmission {
+    padding: 50px 25px;
     width: 1200px;
     background-color: black;
-    align-items: center;
+    /*align-items: center;*/
+}
+
+.teatype {
+    padding: 50px 50px;
+    width: 1000px;
+    
 }
 /*
 .logo {
