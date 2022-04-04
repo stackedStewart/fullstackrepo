@@ -62,7 +62,13 @@
 	font-style: normal;
 }
 
+.bold {
+	font-weight: 700;
+}
 
+.italic {
+	font-style: italic;
+}
 
 
 
