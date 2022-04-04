@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    position: absolute;
+}
+
+/*mission area*/
+
+.mission {
+    height: 700px;
+    margin: 20px;
+    padding-top: 69px;
+    border-bottom: 1px solid seashell;
+}
+
+.ourmission {
+    width: 1200px;
+    background-color: black;
+    align-items: center;
+}
+/*
+.logo {
+    text-align: left;
+    height: auto;
+    position: fixed;
+    }
+
+.navigation {
+    display: inline-block;
+    position: relative;
+    color: red;
+}
