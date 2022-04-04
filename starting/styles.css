@@ -70,9 +70,19 @@
 	font-style: italic;
 }
 
+.nunito-sans {
+	font-family: 'Nunito Sans', sans-serif;
+}
 
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
 
-
+.text-panel h1 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Nunito Sans', sans-serif;
+}
 
 
 
