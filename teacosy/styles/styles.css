@@ -21,10 +21,10 @@ nav {
     float: right;
 }
 
-nav > li {
+nav>li {
     display: inline-block;
     margin-right: 0;
-    float: right; 
+    float: right;
 }
 
 li {
@@ -43,7 +43,7 @@ a {
 .logo {
     display: inline-block;
     text-align: left;
-    float: left;
+    /*float: left;*/
 }
 
 .tealogo {
@@ -66,9 +66,10 @@ a {
     /*align-items: center;*/
 }
 
-#imgmission {
+/*#imgmission {
+    padding: auto;
     width: 100%;
-}
+}*/
 
 .missiontxtctr {
     position: absolute;
@@ -78,10 +79,215 @@ a {
     width: 100%;
     transform: translate(-50%, -50%);
 }
- 
+
 /*Featured Tea Styles*/
 .teatype {
-    padding: 50px 50px;
+    display: flex;
+
     width: 1000px;
-    
+
+    position: absolute;
+
+    margin-top: 100px;
+
+    flex-direction: row;
+
+    flex-wrap: wrap;
+
+    margin-bottom: 20px;
+
+}
+
+.teamonth_text {
+
+    position: absolute;
+
+    top: 8 px;
+
+    left: 60%;
+
+    margin-top: 100px;
+
+}
+
+.teaimgs {
+
+    display: flex;
+
+    flex-direction: row;
+
+    text-align: center;
+
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+
+}
+
+
+
+.teabox {
+
+    display: flex;
+
+    justify-content: center;
+
+    margin: 300px 5px 5px 200px;
+
+}
+
+.teabox2 {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin: 30px 5px 5px 350px;
+
+}
+
+.teaimgscozy {
+
+    height: 200px;
+
+    width: 300px;
+
+    margin: auto;
+
+}
+
+figure {}
+
+figcaption {
+
+    margin-top: 10px;
+
+}
+
+/* Locations Styles */
+
+.locations {
+
+    text-align: center;
+
+    height: 500px;
+
+    margin-right: 100px;
+
+    display: flex;
+
+    flex-direction: row;
+
+    width: 1200px;
+
+    margin-top: 5px;
+
+}
+
+#locations_image {
+    /* I don’t know how to put the photo with the cup of coffe uncover */
+
+    width: 1200px;
+
+    height: 500px;
+
+    position: absolute;
+
+    left: 10%;
+
+
+
+    overflow: hidden;
+
+}
+
+.locations_text {
+
+    position: relative;
+
+    left: 58%;
+
+}
+
+.locations_maine {
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-around;
+
+    flex: 1fr 1fr 1fr;
+
+    row-gap: 40px 40px 40px;
+
+    flex-flow: row nowrap;
+
+    margin-left: 20px;
+
+    margin-right: 20px;
+
+    position: relative;
+
+    text-align: center;
+
+    height: 500px;
+
+}
+
+.locations_maine_portland {
+
+    margin: 80px 40px 40px 0;
+    /* To create space between flexbox items one way is to put to .flexitem margin: 0 5px; */
+
+    width: 300px;
+
+    height: 250px;
+
+    position: relative;
+
+    background-color: black;
+
+    text-align: center;
+
+    opacity: 1;
+
+    left: 5%;
+
+    bottom: -5%;
+
+    padding: 5px;
+
+    flex-basis: auto;
+
+    opacity: 1;
+
+}
+
+/* Contact Styles */
+
+.contact {
+
+    margin: 0 auto;
+
+    text-align: center;
+
+    height: 200px;
+
+    position: relative;
+
+    width: 100%;
+
+}
+
+/* Footer Styles */
+
+footer {
+
+    margin-top: 5px;
+
+    text-align: left;
+
+    margin-left: 20px;
+
 }
