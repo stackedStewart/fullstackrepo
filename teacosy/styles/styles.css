@@ -8,43 +8,80 @@ body {
 }
 
 header {
-    position: absolute;
+    position: sticky;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    width: 100%;
+    margin-bottom: 0;
 }
 
-h4 {
+nav {
+    display: inline-block;
+    margin-right: 0;
+    float: right;
+}
+
+nav > li {
+    display: inline-block;
+    margin-right: 0;
+    float: right; 
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: underline;
+    margin-right: 10px;
+}
+
+a {
     color: seashell;
 }
 
-/*mission area*/
+/*Header*/
+
+.logo {
+    display: inline-block;
+    text-align: left;
+    float: left;
+}
+
+.tealogo {
+    height: 50px;
+}
+
+/*Mission*/
 
 .mission {
     height: 700px;
-    margin: 20px;
-    padding-top: 69px;
-    border-bottom: 1px solid seashell;
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
 }
 
-.ourmission {
-    padding: 50px 25px;
-    width: 1200px;
+.missiontxt {
+    color: seashell;
     background-color: black;
     /*align-items: center;*/
 }
 
+#imgmission {
+    width: 100%;
+}
+
+.missiontxtctr {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: black;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+ 
+/*Featured Tea Styles*/
 .teatype {
     padding: 50px 50px;
     width: 1000px;
     
-}
-/*
-.logo {
-    text-align: left;
-    height: auto;
-    position: fixed;
-    }
-
-.navigation {
-    display: inline-block;
-    position: relative;
-    color: red;
 }
