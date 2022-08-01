@@ -47,9 +47,12 @@ header {
 }
 
 header .content {
+  font-family: "Robot", Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
   display: flex;
   align-items: center;
-  padding: 1.875rem;
+  height: 5.3125rem;
+  padding: 0 1.875rem;
 }
 
 header .logo {
@@ -151,6 +154,13 @@ header .mobile {
 
 #sign-up-cta h2 {
   font-size: 2.25rem;
+}
+
+#sign-up-cta span {
+  color: white;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.4;
 }
 
 #sign-up-cta span strong {
@@ -280,6 +290,10 @@ header .mobile {
     margin: 0;
     padding: 1.25rem 1rem 0 1rem;
   }
+
+  .feature .content {
+    padding: 1.25rem 0 1.875rem 0;
+  }
 }
 
 /* Filters Section */
@@ -308,6 +322,7 @@ header .mobile {
 }
 
 #filters-section .images-container {
+  display: flex;
   max-width: 100%;
   padding: 0 1%;
 }
@@ -348,11 +363,11 @@ header .mobile {
   background-color: #f3f3f3;
 }
 
-#quotes-section content {
+#quotes-section .content {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
@@ -361,21 +376,21 @@ header .mobile {
   color: #4a4a4a;
 }
 
-#quotes-section quote-citation {
+#quotes-section .quote-citation {
   height: 1.875rem;
 }
 
 @media only screen and (max-width: 760px) {
-  #quotes-section content {
+  #quotes-section .content {
     padding: 1.875rem .625rem;
   }
 
-  #quotes-section quote {
+  #quotes-section .quote {
     font-size: 1.5rem;
     line-height: 1.4;
   }
 
-  #quotes-section quote-citation {
+  #quotes-section .quote-citation {
     display: block;
     padding-top: 1rem;
     margin: auto;
