@@ -90,4 +90,4 @@ const playGame = () => {
 
 playGame();
 
-//Rock Paper Scissors Codecademy Project | John Stewart | 02/08/2022
+//Rock Paper Scissors Codecademy Project | John Stewart | 03/08/2022
