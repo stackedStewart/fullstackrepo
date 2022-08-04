@@ -44,7 +44,7 @@ const getSleepHours = day => {
 };
 
 console.log(getSleepHours('Mon'))
-//console.log(getSleepHours('Tues'))
-//console.log(getSleepHours('Wed'))
+console.log(getSleepHours('Tues'))
+console.log(getSleepHours('Wed'))
 
 //Sleepdebt Codecademy Project | John Stewart | 03/08/2022
