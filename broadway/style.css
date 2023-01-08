@@ -107,7 +107,9 @@ html, body {
   }
   
   .supporting img {
-    height: 32px;
+    height: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   
   .supporting h2 {
